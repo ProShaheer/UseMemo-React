@@ -1,12 +1,10 @@
-import UseMemo from "./components/useMemo";
-import "./App.css";
+import ShowHide from "./components/ShowHide";
 
 function App() {
-  return (
-    <>
-      <UseMemo />
-    </>
-  );
+  <>
+  return <ShowHide />;
+</>
+
 }
 
 export default App;

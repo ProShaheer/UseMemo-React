@@ -1,9 +1,11 @@
-import ShowHide from "./components/ShowHide";
+import Counter from "./components/Counter";
 
 function App() {
-  <>
-  return <ShowHide />;
-</>
+  return (<>
+    <Counter />
+    <Counter />
+  </>
+  );
 
 }
 
